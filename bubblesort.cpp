@@ -9,8 +9,6 @@ using namespace std;
 
 int main() {
     int arr_sort[MAX_SIZE], i, j, a, t;
-
-    cout << "Simple C++ Bubble Sort Example - Array\n";
     cout << "\nEnter " << MAX_SIZE << " Elements for Sorting : " << endl;
     for (i = 0; i < MAX_SIZE; i++)
         cin >> arr_sort[i];
